@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="#9487B4DC"
+    android:layout_height="match_parent"
+    tools:context=".Reading_art">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/selectSubject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:shadowColor="@color/black"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="5"
+                android:text="Art Reading"
+                android:textColor="#673AB7"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_marginTop="7dp"
+                android:background="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginHorizontal="15dp"
+                android:textSize="18dp"
+                android:text="   In art class, we love exploring colors! We have a big box of crayons with every color you can imagine – red, blue, green, yellow, and so many more. We learn about primary colors like red, blue, and yellow, and how we can mix them together to make new colors. When we draw with crayons, we can use different colors to make our pictures more exciting. We can draw a bright red apple, a big blue sky, or a green grassy field. Colors make our artwork come to life!"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginHorizontal="15dp"
+                android:textSize="18dp"
+                android:text="Painting is so much fun! In art class, we get to use watercolor paints to create beautiful pictures. We have a palette with lots of different colors – red, orange, purple, and more. We dip our paintbrushes into the water and then into the paint. With a few strokes of our brush, we can make amazing artwork. We paint pictures of animals, flowers, and even imaginary creatures. Sometimes, we mix colors together to make new shades, like mixing blue and yellow to make green. Painting lets us be creative and express ourselves in colorful ways!"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginHorizontal="15dp"
+                android:textSize="18dp"
+                android:text="Art isn't just about colors – it's also about shapes and patterns! We use different shapes like circles, squares, and triangles to make our artwork interesting. We can arrange shapes to make pictures of houses, trees, or even robots! Sometimes, we use patterns to decorate our artwork. We make stripes, polka dots, or zigzags with our crayons or markers. Patterns add texture and style to our pictures, making them look even more amazing."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginHorizontal="15dp"
+                android:textSize="18dp"
+                android:text="Sculpture is a special kind of art where we make 3D objects out of clay. Clay is soft and squishy, like playdough, and we can mold it into all sorts of shapes. We roll the clay into balls, snakes, or coils, and then we press and pinch it to make sculptures. We can make animals, people, or even our favorite foods! After we're done shaping our sculptures, we let them dry in the sun. When they're dry, they become hard and solid, just like real statues. Sculpture lets us feel and explore different textures while making beautiful art!"/>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

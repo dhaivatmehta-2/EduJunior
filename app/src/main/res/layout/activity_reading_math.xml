@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="#9487B4DC"
+    android:layout_height="match_parent"
+    tools:context=".Reading_math">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/selectSubject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:shadowColor="@color/black"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="5"
+                android:text="Math Reading"
+                android:textColor="#673AB7"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_marginTop="7dp"
+                android:background="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginHorizontal="15dp"
+                android:textSize="18dp"
+                android:text="Mathematics is like a superpower that helps us understand the world around us! Have you ever counted your toys or shared your candies with friends? Congratulations, you're already doing math! Math is all about numbers, shapes, patterns, and solving problems. From counting how many cookies are left in the jar to figuring out how fast a car is going, math is everywhere! It's like a secret code that scientists, engineers, and even artists use to explore the mysteries of the universe. So, get ready to put on your math cap and embark on a thrilling adventure filled with numbers and equations!"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginHorizontal="15dp"
+                android:textSize="18dp"
+                android:text="Mathematics is not just about memorizing formulas and crunching numbers—it's about discovering the beauty of patterns and unlocking the mysteries of the world! Imagine being able to predict the path of a bouncing ball or understanding the shape of a snowflake using math. Isn't that amazing? With math, you can solve puzzles, build bridges, design video games, and even explore outer space! So, let's roll up our sleeves, grab our pencils, and dive into the exciting world of math. Together, we'll learn how to think logically, solve problems creatively, and unleash the power of numbers!"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginHorizontal="15dp"
+                android:textSize="18dp"
+                android:text="Mathematics is like a magical toolbox filled with tools to solve real-world problems! Whether you're figuring out how to split a pizza among friends or calculating the trajectory of a rocket, math helps us make sense of the world and make informed decisions. It's like a puzzle where every piece fits together perfectly to reveal the bigger picture. With math, you can unleash your creativity, sharpen your critical thinking skills, and tackle challenges with confidence. So, let's dive deeper into the wonders of math and unlock the door to endless possibilities!"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginHorizontal="15dp"
+                android:textSize="18dp"
+                android:text="Mathematics is like a secret code that helps us uncover hidden patterns in the world around us! From the spiral of a seashell to the rhythm of a heartbeat, math reveals the underlying order in nature. By studying math, you can become a detective, solving mysteries and unraveling the secrets of the universe. With each problem you solve, you'll gain new insights and deepen your understanding of the world. So, let's embrace the challenge of mathematics and embark on an exciting quest to uncover the mysteries of the cosmos!"/>
+            <!-- Add more TextViews for additional paragraphs -->
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

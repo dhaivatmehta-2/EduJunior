@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "173608057464",
+    "project_id": "edu-app-a41f7",
+    "storage_bucket": "edu-app-a41f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173608057464:android:34389d0a16a2fa9fc34b8d",
+        "android_client_info": {
+          "package_name": "com.example.edu_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDsPFQtQA6tXzRWjOEjDPR1dNnN0reL2g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

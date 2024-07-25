@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#9487B4DC"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/num"
+        android:layout_width="wrap_content"
+        android:layout_height="162dp"
+        android:layout_marginTop="17dp"
+        android:src="@drawable/numbers" />
+
+    <VideoView
+        android:id="@+id/vnum"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="162dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/add_thumb" />
+    <VideoView
+        android:id="@+id/vadd"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/shape"
+        android:layout_width="wrap_content"
+        android:layout_height="162dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/shapes_thumb" />
+    <VideoView
+        android:id="@+id/vshape"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/sub"
+        android:layout_width="wrap_content"
+        android:layout_height="162dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/sub_thumb" />
+    <VideoView
+        android:id="@+id/vsub"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Back"
+        android:visibility="gone" />
+
+</LinearLayout>
+

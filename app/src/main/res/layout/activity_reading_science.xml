@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="#9487B4DC"
+    android:layout_height="match_parent"
+    tools:context=".Reading_science">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/selectSubject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:shadowColor="@color/black"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="5"
+                android:text="Science Reading"
+                android:textColor="#673AB7"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_marginTop="7dp"
+                android:background="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginHorizontal="15dp"
+                android:textSize="18dp"
+                android:text="Science is like a magic wand that helps us understand how the world works! Have you ever wondered why the sky is blue, or how plants grow? Science has the answers! It's all about asking questions, making observations, and conducting experiments to uncover the mysteries of nature. From the tiniest atoms to the vastness of outer space, science explores everything around us. So, get ready to put on your lab coat and goggles, because we're about to embark on a thrilling journey through the wonders of science!"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginHorizontal="15dp"
+                android:textSize="18dp"
+                android:text="One of the coolest things about science is that it's always changing and evolving. New discoveries are made every day, pushing the boundaries of what we know and opening up new possibilities for the future. Just think about all the amazing inventions and technologies that have come from scientific research, like computers, smartphones, and space travel! By studying science, you can be a part of this exciting journey of exploration and innovation. So, let's roll up our sleeves and dive into the wonders of science together!"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginHorizontal="15dp"
+                android:textSize="18dp"
+                android:text="Science isn't just for scientists—it's for everyone! Whether you're a curious kid asking why the sky is blue, a budding engineer building robots, or an aspiring doctor learning about the human body, science has something for everyone. By understanding the world around us, we can make informed decisions, solve problems, and create a better future for all living things. So, let's embrace the spirit of curiosity and discovery, and explore the wonders of science together!"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginHorizontal="15dp"
+                android:textSize="18dp"
+                android:text="Did you know that science is not just one thing, but a whole bunch of different fields? There's biology, which studies living things like plants and animals. Then there's chemistry, which looks at the building blocks of matter and how they interact. Physics explores the laws of motion, energy, and the universe. And let's not forget about Earth science, which delves into the planet we call home, from rocks and fossils to weather and climate. Each branch of science offers its own unique discoveries and challenges, making the world an even more fascinating place to explore!"/>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

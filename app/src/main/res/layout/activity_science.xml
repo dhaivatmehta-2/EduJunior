@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#9487B4DC">
+
+    <ImageView
+        android:id="@+id/dinos"
+        android:layout_width="wrap_content"
+        android:layout_height="162dp"
+        android:layout_marginTop="17dp"
+        android:src="@drawable/dinos" />
+
+    <VideoView
+        android:id="@+id/vdinos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/plants"
+        android:layout_width="wrap_content"
+        android:layout_height="162dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/plants" />
+    <VideoView
+        android:id="@+id/vplants"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/solar"
+        android:layout_width="wrap_content"
+        android:layout_height="162dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/solar" />
+    <VideoView
+        android:id="@+id/vsolar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/water"
+        android:layout_width="wrap_content"
+        android:layout_height="162dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/water_cycle" />
+    <VideoView
+        android:id="@+id/vwater"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/backButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Back"
+        android:visibility="gone" />
+
+</LinearLayout>
+

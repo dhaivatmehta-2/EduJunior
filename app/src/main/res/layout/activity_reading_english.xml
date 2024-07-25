@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="#9487B4DC"
+    android:layout_height="match_parent"
+    tools:context=".Reading_english">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/selectSubject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:shadowColor="@color/black"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="5"
+                android:text="English Reading"
+                android:textColor="#673AB7"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_marginTop="7dp"
+                android:background="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginHorizontal="15dp"
+                android:textSize="18dp"
+                android:text="English is a fascinating language spoken by people all around the world! Did you know that English has more than one billion speakers? It's true! People use English to communicate in many different countries, like the United States, the United Kingdom, Canada, Australia, and many more. One cool thing about English is that it's always changing and growing. New words are added to the English language all the time, especially with new inventions and technology. So, when you're learning English, you're not just learning words, you're also learning about the amazing world around us!" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginHorizontal="15dp"
+                android:textSize="18dp"
+                android:text="Learning English can be lots of fun! There are so many interesting words to discover, and you can use them to tell stories, make friends, and explore new places. English has some tricky parts, like irregular spellings and pronunciation, but don't worry! With practice and patience, you can become an expert in English. You can start by reading books, listening to songs, watching movies, and even playing games in English. So, let's embark on this exciting journey together and unlock the magic of the English language!" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginHorizontal="15dp"
+                android:textSize="18dp"
+                android:text="Learning English opens up a world of opportunities! You can travel to different countries and communicate with people from diverse cultures. With English, you can read fascinating stories, write your own adventures, and express your thoughts and feelings in a language that connects you with people all over the globe. Whether you're dreaming of becoming a scientist, an artist, a doctor, or an astronaut, English will be your trusted companion on your journey to success. So, let's embrace the adventure of learning English together and discover the endless possibilities that await us!"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginHorizontal="15dp"
+                android:textSize="18dp"
+                android:text="English is not just about speaking and writing—it's also about listening and understanding. By learning English, you can enjoy listening to your favorite songs, watching movies with subtitles, and even making friends from different parts of the world. With English, you can explore new cultures, learn about different traditions, and broaden your perspective on life. So, let's tune our ears to the melody of English and embark on a journey of discovery and connection!"/>
+
+            <!-- Add more TextViews for additional paragraphs -->
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
