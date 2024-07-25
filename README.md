@@ -2,6 +2,8 @@
 
 -As part of a college project, we created a multi-functional App to provide children with  unique academical learning 
 
+-> *Complete project in the master branch*
+
 -Features: 
           -safe parental Login-Signup (app will automatically logout incase child closes the app, ensures child cant access content without parental knowledge)
             This is connected to firebase and its authentication system
