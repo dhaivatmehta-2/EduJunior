@@ -18,7 +18,7 @@
            -splash screen (the app has a start up animation page)
 
            
-            ^these features are designed to entertain as well as provide knowledge at the same time.
+            Children are generally more energetic and always curious hence ^ these features are designed to entertain as well as provide knowledge at the same time.
 
 
 *There is a video in the main branch of a demo showing the working of the app 
