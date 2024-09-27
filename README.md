@@ -1,4 +1,4 @@
-# EduJunior
+# EduJunior App
 
 -As part of a college project, we created a multi-functional App to provide children with  unique academical learning 
 
